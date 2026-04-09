@@ -1,0 +1,14 @@
+# S-Let Website - robots.txt configuration
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Allow: /assets/
+Disallow: /admin/
+Disallow: /*.pdf$
+
+# Sitemap reference
+Sitemap: https://www.s-let.co.uk/sitemap.xml
+
+# Crawl delay (optional - set to allow search engines reasonable crawl rate)
+Crawl-delay: 1
